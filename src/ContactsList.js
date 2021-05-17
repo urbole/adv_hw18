@@ -43,8 +43,8 @@ class Contacts extends Component {
     const searchValue = (e.target.value).toLowerCase()
     this.setState({ search: searchValue }, () => {
       const resultContactsArr = allContacts.filter((contact) => {
-        const firstNameElement = contact.firstName.includes(searchValue);
-        const lastNameElement = contact.lastName.includes(searchValue);
+        const firstNameElement = contact.firstName.toLowerCase().includes(searchValue);
+        const lastNameElement = contact.lastName.toLowerCase().includes(searchValue);
         const phoneElement = contact.phone.includes(searchValue);
 
         return firstNameElement || lastNameElement || phoneElement ? true : false
