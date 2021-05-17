@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap);
+
 * {
   box-sizing: border-box;
 }
@@ -16,11 +17,11 @@ body {
   font-family: 'Times New Roman', Times, serif;
 }
 
-
 :active, :hover, :focus {
   outline: 0;
   outline-offset: 0;
 }
+
 .wrap_app {
   width: 330px;
   height: 480px;
@@ -92,6 +93,7 @@ body {
 .search_panel:focus+.search_list {
   display: block;
 }
+
 .wrap_contact:hover {
   background-color: rgb(104, 102, 102);;
   cursor: pointer;
@@ -105,6 +107,7 @@ body {
   -webkit-justify-content: space-around;
           justify-content: space-around;
 }
+
 .wrap_contact {
   margin: 15px 0;
   display: -webkit-flex;
@@ -122,4 +125,3 @@ body {
 .contact_data {
   margin:3px 8px 3px 10px;
 }
-

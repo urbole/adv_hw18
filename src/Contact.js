@@ -4,7 +4,6 @@ import { ReactComponent as Male } from './assets/male.svg';
 import { ReactComponent as NoGender } from './assets/noGender.svg';
 
 class Contact extends Component {
-
   render() {
     return (
       <div className="wrap_contact">

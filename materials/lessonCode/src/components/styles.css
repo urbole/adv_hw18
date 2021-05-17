@@ -1,0 +1,61 @@
+body {
+  background-color: #242424;
+  color: bisque;
+}
+
+.test {
+  width: 50%;
+  margin: 0 auto;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.red {
+  color: red;
+}
+
+.green {
+  color: green;
+}
+
+nav {
+  background-color: darkgray;
+  padding: 10px 0;
+}
+
+h1 {
+  margin: 0;
+  text-align: center;
+}
+
+.add-post {
+  margin-top: 20px;
+  text-align: center;
+}
+
+input {
+  margin-top: 10px;
+  padding: 5px;
+}
+
+.add-post-button {
+  padding: 5px;
+  text-transform: uppercase;
+}
+
+.post-block {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.post {
+  margin: 20px 0;
+  padding: 20px;
+  background-color: darkgray;
+}
+
+.post-span {
+  color: red;
+  font-size: 24px;
+  cursor: pointer;
+}
